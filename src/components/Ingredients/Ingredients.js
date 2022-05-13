@@ -35,7 +35,7 @@ const Ingredients = () => {
 									<div className='ingredients-about' key={index}>
 										<Link to={`/meal/${ingredient.idMeal}`} className='link'>
 											<div className='ingredients-group'>
-												<img className='ingredients-img'
+												<img className='ingredients-img2'
 													 src={`${ingredient.strMealThumb}`}
 													 alt=""/>
 												<h4 className='element-name'>{ingredient.strMeal}</h4>
