@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { useParams} from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 import axios from "axios";
 
 const RandomMealsInfo = () => {
@@ -42,12 +42,12 @@ const RandomMealsInfo = () => {
 						{
 							ingredients.map((ingredient, index) => (
 									<div className='ingredients-about' key={index}>
-
+                                          <Link to={`/ingredients/${ingredient}`} className='link'>
 											<img className='ingredients-img'
 												 src={`https://www.themealdb.com/images/ingredients/${ingredient}.png`}
 												 alt=""/>
 											<div className='ingredients-name'>{ingredient}</div>
-
+										  </Link>
 									</div>
 							))
 						}
