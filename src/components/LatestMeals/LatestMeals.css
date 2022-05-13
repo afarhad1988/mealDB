@@ -1,0 +1,15 @@
+
+.element-name{
+    color: #A46E1F;
+    text-align: center;
+}
+
+.title-name{
+    text-align: center;
+    color: white;
+}
+
+.latestMeals{
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+}

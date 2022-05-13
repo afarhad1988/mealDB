@@ -1,0 +1,29 @@
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-bottom: 2px solid white;
+}
+
+.title{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.subtitle{
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+.link_for_json{
+    color: #A46E1F;
+    text-decoration: none;
+}
+.link_for_json:hover{
+    color: #FFC439;
+}

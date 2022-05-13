@@ -1,0 +1,90 @@
+.header{
+    background: #23180D;
+    padding: 30px 0;
+
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    width: 120px;
+    height: 30px;
+    padding: 5px 2px;
+    background: white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+.twitter{
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.twitter:hover{
+    background: #c52d2f;
+
+}
+
+.facebook{
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.facebook:hover{
+    background: #c52d2f;
+}
+.btn-forum{
+    margin-left: 30px;
+    background: #23180D;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.btn-forum:hover{
+    background: #c52d2f;
+}
+.btn-api{
+    margin-left: 40px;
+    border: none;
+    background: #23180D;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+}
+.btn-api:hover{
+    background: #c52d2f;
+
+}
+.btn-home{
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    background-color: #c52d2f;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.burger{
+    display: none;
+    font-size: 28px;
+    color: #fff;
+}
+
+.o-hidden{
+    overflow: hidden;
+}

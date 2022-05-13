@@ -1,0 +1,91 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.item-col{
+    width: 22%;
+    padding: 0 15px;
+}
+
+.element-img{
+    width: 100%;
+}
+
+.element-name{
+    color: #A46E1F;
+    text-align: center;
+}
+
+.title-name{
+    text-align: center;
+    color: white;
+}
+.link{
+    text-decoration: none;
+}
+.randomMeal{
+    display: flex;
+    justify-content: space-between;
+}
+.randomMeal-about{
+    /*text-align: center;*/
+}
+.randomMeal-title{
+ color: white;
+ text-align: center;
+}
+.randomMeal-img{
+    width: 400px;
+}
+
+.ingredients-title{
+    color: white;
+    text-align: center;
+}
+.instructions{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.instructions-about{
+    color: white;
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4{
+    width: 40%;
+
+}
+
+.col-8{
+    width: 60%;
+
+}
+
+.ingredients-img{
+    width: 150px;
+}
+
+.ingredients-about{
+    color: #A46E1F;
+    display: inline-block;
+   margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.ingredients-name{
+    text-align: center;
+
+    color: #A46E1F;
+}
+
+.ingredients-link{
+    text-decoration: none;
+}
