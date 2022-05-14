@@ -53,7 +53,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -5px;
 }
 
 .col-4{
@@ -61,12 +61,14 @@
 
 }
 
-.col-8{
-    width: 60%;
+.col-6{
+    width: 50%;
 
 }
 
-
+.col-8{
+    width: 60%;
+}
 .ingredients-about{
     color: #A46E1F;
     display: inline-block;
@@ -84,14 +86,17 @@
     text-decoration: none;
 }
 .ingredients-group{
-    width: 100%;
+    width: 99%;
 }
 .ingredients-img{
     width: 150px;
 }
+.ingredients-img2{
+    width: 181px;
+}
 
-.element-name{
+.element-name2{
     color: #A46E1F;
     text-align: center;
-
+  font-size: 10px;
 }

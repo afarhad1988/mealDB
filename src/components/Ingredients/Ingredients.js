@@ -28,7 +28,7 @@ const Ingredients = () => {
 							<img className='randomMeal-img' src={`https://www.themealdb.com/images/ingredients/${name}.png`} alt=""/>
 						</div>
 					</div>
-					<div className='col-8 col-sm-6 col-md-6 col-lg-4'>
+					<div className='col-6 col-sm-6 col-md-6 col-lg-4'>
 						<h2 className='ingredients-title'>Meals</h2>
 						{
 							ingredients.meals.map((ingredient, index) => (
@@ -38,7 +38,7 @@ const Ingredients = () => {
 												<img className='ingredients-img2'
 													 src={`${ingredient.strMealThumb}`}
 													 alt=""/>
-												<h4 className='element-name'>{ingredient.strMeal}</h4>
+												<h4 className='element-name2'>{ingredient.strMeal}</h4>
 											</div>
 										</Link>
 									</div>
