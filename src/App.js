@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter, Routes,Route} from "react-router-dom";
-import './media.css'
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import RandomMealsInfo from "./components/RandomMealsInfo";
