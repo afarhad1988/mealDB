@@ -22,28 +22,33 @@ const Ingredients = () => {
 	return (
 			<div className='container'>
 				<div className='row'>
-					<div className='col-4  col-sm-6 col-md-6 col-lg-4'>
+					<div className='col-4 col-sm-6 col-md-6 col-lg-4'>
 						<h2 className='randomMeal-title'>{name}</h2>
 						<div className='randomMeal-pic'>
 							<img className='randomMeal-img' src={`https://www.themealdb.com/images/ingredients/${name}.png`} alt=""/>
 						</div>
 					</div>
-					<div className='col-6 col-sm-6 col-md-6 col-lg-4'>
+					<div className='col-8 col-sm-6 col-md-6 col-lg-4'>
 						<h2 className='ingredients-title'>Meals</h2>
+						<div className="row">
+
 						{
 							ingredients.meals.map((ingredient, index) => (
-									<div className='ingredients-about' key={index}>
-										<Link to={`/meal/${ingredient.idMeal}`} className='link'>
-											<div className='ingredients-group'>
-												<img className='ingredients-img2'
+									<div className="col-3">
+										<Link to={`/meal/${ingredient.idMeal}`} className='link' key={index}>
+
+												<img className='ingredients-img'
 													 src={`${ingredient.strMealThumb}`}
 													 alt=""/>
-												<h4 className='element-name2'>{ingredient.strMeal}</h4>
-											</div>
+												<h4 className='element-name'>{ingredient.strMeal}</h4>
+
 										</Link>
+
 									</div>
 							))
 						}
+
+						</div>
 
 					</div>
 

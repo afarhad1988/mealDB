@@ -17,7 +17,7 @@ const RandomMeals = () => {
 		return
 	}
 	return (
-			<div >
+			<div className='randomMeals' >
 				<h3 className='title-name'>Random Meals</h3>
 				<div className='row'>
 

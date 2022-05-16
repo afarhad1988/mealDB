@@ -55,48 +55,55 @@
     flex-wrap: wrap;
     margin: 0 -5px;
 }
-
+.col-3{
+    width: 20%;
+    padding: 0 15px;
+}
 .col-4{
     width: 40%;
 
 }
 
-.col-6{
-    width: 50%;
-
-}
-
 .col-8{
     width: 60%;
+
 }
 .ingredients-about{
-    color: #A46E1F;
-    display: inline-block;
-   margin-bottom: 50px;
-    margin-left: 20px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .ingredients-name{
     text-align: center;
-
     color: #A46E1F;
 }
 
 .ingredients-link{
     text-decoration: none;
 }
-.ingredients-group{
-    width: 99%;
-}
+
 .ingredients-img{
     width: 150px;
 }
-.ingredients-img2{
-    width: 181px;
+
+
+.browse-container{
+    margin-top: 20px;
 }
 
-.element-name2{
-    color: #A46E1F;
+.randomMeals{
+    border-bottom: 2px solid white;
+}
+
+.link-item{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+
+.browseNavigation{
+ margin-bottom: 50px;
     text-align: center;
-  font-size: 10px;
 }

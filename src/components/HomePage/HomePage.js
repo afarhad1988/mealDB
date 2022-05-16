@@ -3,6 +3,7 @@ import './HomePage.css'
 import meal from "../../assets/images/meal-icon.png";
 import RandomMeals from "../RandomMeals";
 import LatestMeals from "../LatestMeals";
+import BrowseNavigation from "../BrowseNavigation";
 
 
 
@@ -23,6 +24,7 @@ const HomePage = () => {
 				</div>
 				<LatestMeals/>
 				<RandomMeals/>
+				<BrowseNavigation/>
 			</div>
 
 	);

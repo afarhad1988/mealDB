@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import { Link, useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import axios from "axios";
+import ReactPlayer from 'react-player'
 
 const RandomMealsInfo = () => {
 	const {id} = useParams()
@@ -36,22 +37,27 @@ const RandomMealsInfo = () => {
 						<div className='randomMeal-pic'>
 							<img className='randomMeal-img' src={randomMeals.strMealThumb} alt=""/>
 						</div>
+
 					</div>
 					<div className='col-8 col-sm-6 col-md-6 col-lg-4'>
 						<h2 className='ingredients-title'>Ingredients</h2>
-						{
-							ingredients.map((ingredient, index) => (
-									<div className='ingredients-about' key={index}>
-                                          <Link to={`/ingredients/${ingredient}`} className='link'>
-											<img className='ingredients-img'
-												 src={`https://www.themealdb.com/images/ingredients/${ingredient}.png`}
-												 alt=""/>
-											<div className='ingredients-name'>{ingredient}</div>
-										  </Link>
-									</div>
-							))
-						}
-
+						<ReactPlayer url={randomMeals.strYoutube} />
+						<div className="row">
+							{
+								ingredients.map((ingredient, index) => (
+										<div className="col-3">
+											<div className='ingredients-about' key={index}>
+												<Link to={`/ingredients/${ingredient}`} className='link'>
+													<img className='ingredients-img'
+														 src={`https://www.themealdb.com/images/ingredients/${ingredient}.png`}
+														 alt=""/>
+													<div className='ingredients-name'>{ingredient}</div>
+												</Link>
+											</div>
+										</div>
+								))
+							}
+						</div>
 					</div>
 
 				</div>
